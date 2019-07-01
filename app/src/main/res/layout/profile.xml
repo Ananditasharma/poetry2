@@ -88,7 +88,7 @@
                 android:clickable="true"
                 android:elevation="4dp"
                 android:padding="20dp"
-                android:text="My favourites"
+                android:text="Romantic"
                 android:textColor="#030303" />
 
             <TextView
@@ -101,7 +101,7 @@
                 android:clickable="true"
                 android:elevation="4dp"
                 android:padding="20dp"
-                android:text="Poem Interests"
+                android:text="Fantasy"
                 android:textColor="#030303"/>
 
             <TextView
@@ -112,7 +112,7 @@
                 android:clickable="true"
                 android:elevation="4dp"
                 android:padding="20dp"
-                android:text="About me"
+                android:text="Friendship"
                 android:textColor="#030303"/>
 
             <TextView
@@ -125,7 +125,7 @@
                 android:clickable="true"
                 android:elevation="4dp"
                 android:padding="20dp"
-                android:text="Ratings"
+                android:text="Drama"
                 android:textColor="#030303"/>
 
             <TextView
