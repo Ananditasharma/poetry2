@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements MyAdapter.OnPoemActivityListener {
+public class MainActivity extends AppCompatActivity implements MyAdapter.OnPoemActivityListener,Feed.OnadddocListener,rocategory.OnRoPoemActivityListener {
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -63,6 +63,19 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.OnPoemA
     public void performaddpoem() {
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                 new addpoem()).addToBackStack(null).commit();
+
+    }
+
+    @Override
+    public void adddoc() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new rocategory()).addToBackStack(null).commit();
+
+    }
+
+    @Override
+    public void performAdd() {
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new categoriesro()).addToBackStack(null).commit();
 
     }
 }
